@@ -16,23 +16,24 @@ type pool struct {
 	maxWorkerNumb     int
 	currentWorkerNumb int
 
-	locker      sync.Mutex
-	workerQueue []*worker
+	locker         sync.Mutex
+	workerQueue    []*worker
+	taskWaiteQueue []taskImpl
 }
 
 // worker内部包含上层pool的实例，用于交互
 type worker struct {
-	task         chan taskImpl
+	taskChan     chan taskImpl
 	poolInstance *pool
 }
 
-type taskFunc func()
+type taskFunc func(params ...interface{})
 
 type taskImpl struct {
-	tFunc	taskFunc
+	tFunc  taskFunc
+	params []interface{}
 }
 
-/* -------------- core struct -------------- */
 
 /* -------------- input struct -------------- */
 type Option struct {
@@ -40,4 +41,10 @@ type Option struct {
 	MaxWorkerNumb  int
 }
 
-/* -------------- input struct -------------- */
+
+/* -------------- output struct -------------- */
+type Status struct {
+	TotalWorkerNumber int	// 当前总协程数
+	workerQueueNumber int	// 当前可用的worker数
+	taskWaitingNUmber int	// 正在排队的任务数
+}

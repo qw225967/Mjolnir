@@ -9,24 +9,32 @@
 
 package taskpool
 
-func newWorker() *worker {
+func newWorker(p *pool) *worker {
 	return &worker{
-		task: make(chan taskImpl),
+		taskChan:     make(chan taskImpl),
+		poolInstance: p,
 	}
 }
 
 func (w *worker) start() {
 	go func() {
-		task := <- w.task
-		task.tFunc()
-		w.poolInstance.taskStartTrigger(w)
+		for {
+			task, ok := <-w.taskChan
+			if !ok {
+				return
+			}
+			task.tFunc(task.params)
+
+			// 完成后触发钩子，重新将worker加入待工作队列
+			w.poolInstance.taskStartTrigger(w)
+		}
 	}()
 }
 
 func (w *worker) stop() {
-	close(w.task)
+	close(w.taskChan)
 }
 
 func (w *worker) Go(t taskImpl) {
-	w.task <- t
+	w.taskChan <- t
 }
