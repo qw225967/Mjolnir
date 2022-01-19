@@ -11,6 +11,7 @@ package taskpool
 
 import (
 	"errors"
+	"fmt"
 )
 
 const (
@@ -68,7 +69,7 @@ func (p *pool) initPoolWorker(numb int) {
 
 func (p *pool) taskStartTrigger(w *worker) {
 	p.locker.Lock()
-
+	//fmt.Printf("workerQueue len: %v, taskWaiteQueue len: %v \n", len(p.workerQueue), len(p.taskWaiteQueue))
 	if len(p.taskWaiteQueue) == 0 { // 如果没有任务等待，则重新将执行完毕的worker加入可用队列
 		p.workerQueue = append(p.workerQueue, w)
 	} else { // 如果有任务在等待，则直接使用worker
@@ -87,6 +88,8 @@ func (p *pool) Go(tFunc taskFunc, params ...interface{}) {
 
 	var w *worker
 	p.locker.Lock()
+	fmt.Printf("workerQueue len: %v, taskWaiteQueue len: %v \n", len(p.workerQueue), len(p.taskWaiteQueue))
+
 	if len(p.workerQueue) != 0 { // worker仍存在空闲,取出执行
 		w = p.workerQueue[len(p.workerQueue)-1]
 		p.workerQueue = p.workerQueue[0 : len(p.workerQueue)-1]
@@ -94,8 +97,7 @@ func (p *pool) Go(tFunc taskFunc, params ...interface{}) {
 	} else { // worker无空闲
 
 		if p.maxWorkerNumb == 0 ||
-			(p.maxWorkerNumb > 0 &&
-				p.currentWorkerNumb < p.maxWorkerNumb) { // 区分worker限制：1.worker无限制；2.有限制未达到；
+			(p.maxWorkerNumb > 0 && p.currentWorkerNumb < p.maxWorkerNumb) { // 区分worker限制：1.worker无限制；2.有限制未达到；
 			p.newWorkerWithTask(t)
 		} else { // 达到限制则放入排队队列
 			p.taskWaiteQueue = append(p.taskWaiteQueue, t)
@@ -112,6 +114,8 @@ func (p *pool) newWorkerWithTask(task taskImpl) {
 }
 
 func (p *pool) GetCurrentStatus() Status {
+	p.locker.Lock()
+	defer p.locker.Unlock()
 	return Status{
 		TotalWorkerNumber : p.currentWorkerNumb,
 		workerQueueNumber : len(p.workerQueue),

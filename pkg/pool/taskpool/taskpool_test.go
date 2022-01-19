@@ -30,6 +30,7 @@ func TestNewPoolNewPool(t *testing.T) {
 		pool.Go(func(param ...interface{}) {
 			ii := param[0].(int)
 			atomic.AddInt32(&sum, int32(ii))
+			fmt.Printf("sum: %v \n", sum)
 			wg.Done()
 		}, i)
 	}

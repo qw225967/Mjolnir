@@ -9,9 +9,11 @@
 
 package taskpool
 
+import "fmt"
+
 func newWorker(p *pool) *worker {
 	return &worker{
-		taskChan:     make(chan taskImpl),
+		taskChan:     make(chan taskImpl, 1), // 控制缓冲区，在没有完成任务时阻塞任务channel
 		poolInstance: p,
 	}
 }
@@ -19,12 +21,12 @@ func newWorker(p *pool) *worker {
 func (w *worker) start() {
 	go func() {
 		for {
-			task, ok := <-w.taskChan
+			task, ok := <- w.taskChan
 			if !ok {
-				return
+				break
 			}
-			task.tFunc(task.params)
-
+			task.tFunc(task.params...)
+			fmt.Printf("work done!\n")
 			// 完成后触发钩子，重新将worker加入待工作队列
 			w.poolInstance.taskStartTrigger(w)
 		}
