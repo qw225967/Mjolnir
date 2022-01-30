@@ -1,11 +1,11 @@
-/**
+/*******************************************************
  * @author      : dog head
  * @date        : Created in 2022/1/17
  * @mail        : 396139919@qq.com
  * @project     : pool
  * @file        : pool.go
  * @description : core pool
- */
+ *******************************************************/
 
 package taskpool
 
