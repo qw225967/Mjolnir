@@ -48,7 +48,7 @@ func Equal(expected, actual interface{}) bool {
 }
 
 
-或b不是整型，则直接返回false
+// a或b不是整型，则直接返回false
 func EqualInteger(a, b interface{}) bool {
 	// a有3种状态：有符号整型，无符号整型，非整型
 	// b同理也是3种状态，

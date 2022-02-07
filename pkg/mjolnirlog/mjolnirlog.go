@@ -8,3 +8,15 @@
  */
 
 package mjolnirlog
+
+const (
+	LevelInfo    = "Info"
+	LevelTrace   = "Trace"
+	LevelDebug   = "Debug"
+	LevelWarning = "Warning"
+	LevelError   = "Error"
+	LevelPanic   = "Panic"
+)
+
+type logger struct {
+}
