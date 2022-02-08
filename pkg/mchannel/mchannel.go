@@ -15,7 +15,8 @@ import (
 )
 
 /********************************************************************
- * this function will return true if chan.closed > 0
+ * 这个函数会返回 chan.closed > 0
+ * chan的结构体地址空间如下，操作地址返回closed即可
  * type hchan struct {
  * 	   qcount   uint
  *	   dataqsiz uint
@@ -42,4 +43,21 @@ func IsChannelClosed(ch interface{}) bool {
 	cptr += unsafe.Sizeof(uint16(0))
 	return *(*uint32)(unsafe.Pointer(cptr)) > 0
 }
+
+
+// 如果你非要从接收端关闭channel或者在多个发送者中关闭channel
+// 请使用以下函数帮助你做panic恢复
+type T int // 修改成任何一个需要channel传输的类型
+
+func SafeClose(ch chan T) (closed bool) {
+	defer func() {
+		if recover() != nil {
+			closed =  false
+		}
+	}()
+
+	close(ch)
+	return true
+}
+
 

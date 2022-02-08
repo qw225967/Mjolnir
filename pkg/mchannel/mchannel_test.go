@@ -21,3 +21,10 @@ func TestIsChannelClosed(t *testing.T) {
 	close(ch)
 	fmt.Println(IsChannelClosed(ch))
 }
+
+func TestSafeClose(t *testing.T) {
+	ch := make(chan T)
+	close(ch)
+	//close(ch) // panic
+	fmt.Println(SafeClose(ch))  // false
+}
