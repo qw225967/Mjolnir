@@ -42,3 +42,4 @@ func IsChannelClosed(ch interface{}) bool {
 	cptr += unsafe.Sizeof(uint16(0))
 	return *(*uint32)(unsafe.Pointer(cptr)) > 0
 }
+
