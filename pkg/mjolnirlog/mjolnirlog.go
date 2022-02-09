@@ -45,7 +45,7 @@ func PrintLogo() {
 +           tt;i;iii;;;i;;iLGi                         +
 +              ;fi;;;;;;;;GG,                          +
 +                  ff:;:;GL                            +
-+                      LL1                             +
++                      +L+                             +
 +                            ;                         +
 +                            @t          GG            +
 +                            @t                        +
