@@ -113,6 +113,9 @@ namespace Mjolnir {
     level_ = level;
 
     pthread_mutex_unlock(&mutex_);
+
+    std::string logo = this->GetLogoString();
+    current_node_->Append(logo.c_str(), logo.size());
   }
 
   void MjolnirCLog::Write2Disk() {
@@ -274,6 +277,44 @@ namespace Mjolnir {
     if (thread_call_flag) {
       pthread_cond_signal(&cond_);
     }
+  }
+
+  std::string MjolnirCLog::GetLogoString() {
+    std::string logo = "++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n"
+                       "+                                                      +\n"
+                       "+                                 ;.; G                +\n"
+                       "+                                ,,:iG G               +\n"
+                       "+                               ,tC   , C              +\n"
+                       "+                              ,fC    L  C             +\n"
+                       "+                             ;fL     iL  G            +\n"
+                       "+                            :fi       8   G           +\n"
+                       "+                           if          Coio           +\n"
+                       "+                          if                          +\n"
+                       "+                        .1L                           +\n"
+                       "+                       :fL                            +\n"
+                       "+            t1it,     :LL                             +\n"
+                       "+           LGf::C;1t .tL                              +\n"
+                       "+          tG1::;;;G;:1f;                              +\n"
+                       "+         GL,;;;;;iiii:8G:if                           +\n"
+                       "+         t:iiiiiiiiiiii;;;:ii                         +\n"
+                       "+           tt;i;iii;;;i;;iLGi                         +\n"
+                       "+              ;fi;;;;;;;;GG,                          +\n"
+                       "+                  ff:;:;GL                            +\n"
+                       "+                     +L+                              +\n"
+                       "+                            ;                         +\n"
+                       "+                            @t          GG            +\n"
+                       "+                            @t                        +\n"
+                       "+   f@@8   0@@  @@C          @t         t@@ to    or   +\n"
+                       "+   G8@@: t8@@   G:   L0L    @t ;0 L0C   18  0GGGrr    +\n"
+                       "+   8C @@ @ @@   @L @@   @@  @t 1@:  @@  @@  @@        +\n"
+                       "+   @L  @@  @@   @L @8   0@  @t 1@.  @@  @@  @@        +\n"
+                       "+  C@@:    ,@@@  @L  @@f@@  0@@ @@0 .@@1i@@ t@@        +\n"
+                       "+                @L                                    +\n"
+                       "+                @L                                    +\n"
+                       "+             oGGG                                     +\n"
+                       "+                                                      +\n"
+                       "++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n";
+    return logo;
   }
 
 } // Mjolnir

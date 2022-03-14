@@ -59,6 +59,7 @@ namespace Mjolnir {
     bool FileProcessor(int year, int month, int day);
     void FileGenerator(int year, int month, int day);
     void FileRenameAndGenerator();
+    std::string GetLogoString();
 
   private:
     // lazy singleton 
