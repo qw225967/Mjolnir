@@ -73,9 +73,17 @@ func (p *pool) taskStartTrigger(w *worker) {
 	if len(p.taskWaiteQueue) == 0 { // 如果没有任务等待，则重新将执行完毕的worker加入可用队列
 		p.workerQueue = append(p.workerQueue, w)
 	} else { // 如果有任务在等待，则直接使用worker
-		t := p.taskWaiteQueue[0]
-		p.taskWaiteQueue = p.taskWaiteQueue[1:]
-		w.Go(t)
+		// 如果更新了worker数量，而且少于之前的数量，则停止worker至b调整的值
+		// needDestroyNum 为需要销毁的work数量
+		if p.needDestroyNumb > 0 {
+			w.stop()
+			p.needDestroyNumb--
+			p.currentWorkerNumb--
+		} else {
+			t := p.taskWaiteQueue[0]
+			p.taskWaiteQueue = p.taskWaiteQueue[1:]
+			w.Go(t)
+		}
 	}
 	p.locker.Unlock()
 }
@@ -118,16 +126,27 @@ func (p *pool) GetCurrentStatus() Status {
 	defer p.locker.Unlock()
 	return Status{
 		TotalWorkerNumber : p.currentWorkerNumb,
-		workerQueueNumber : len(p.workerQueue),
-		taskWaitingNUmber : len(p.taskWaiteQueue),
+		WorkerQueueNumber : len(p.workerQueue),
+		TaskWaitingNUmber : len(p.taskWaiteQueue),
 	}
 }
 
 func (p *pool) KillIdleWorkers() {
 	p.locker.Lock()
+	defer p.locker.Unlock()
 	for _, w := range p.workerQueue {
 		w.stop()
 	}
 	p.workerQueue = p.workerQueue[0:0]
-	p.locker.Unlock()
+}
+
+func (p *pool) ChangeMaxWorkersNumber(num int) {
+	p.locker.Lock()
+	defer p.locker.Unlock()
+	if num > 0 && p.maxWorkerNumb != num {
+		if p.maxWorkerNumb > num {
+			p.needDestroyNumb = p.maxWorkerNumb - num
+		}
+		p.maxWorkerNumb = num
+	}
 }

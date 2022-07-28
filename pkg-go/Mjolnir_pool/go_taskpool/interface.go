@@ -18,4 +18,7 @@ type Pool interface {
 
 	// 关闭所有空闲的协程
 	KillIdleWorkers()
+
+	// 修改最大协程数
+	ChangeMaxWorkersNumber(num int)
 }

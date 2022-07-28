@@ -15,6 +15,7 @@ import "sync"
 type pool struct {
 	maxWorkerNumb     int
 	currentWorkerNumb int
+	needDestroyNumb	  int
 
 	locker         sync.Mutex
 	workerQueue    []*worker
@@ -45,6 +46,6 @@ type Option struct {
 /* -------------- output struct -------------- */
 type Status struct {
 	TotalWorkerNumber int	// 当前总协程数
-	workerQueueNumber int	// 当前可用的worker数
-	taskWaitingNUmber int	// 正在排队的任务数
+	WorkerQueueNumber int	// 当前可用的worker数
+	TaskWaitingNUmber int	// 正在排队的任务数
 }
