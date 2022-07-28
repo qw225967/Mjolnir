@@ -11,15 +11,15 @@ package taskpool_test
 
 import (
 	"fmt"
+	"github.com/Mjolnir/pkg-go/Mjolnir_pool/go_taskpool"
 	"sync"
 	"sync/atomic"
 	"testing"
-
-	"github.com/Mjolnir/pkg-go/Mjolnir_pool/go_taskpool"
+	"time"
 )
 
 func TestNewPoolNewPool(t *testing.T) {
-	pool,_ := taskpool.NewPool(&taskpool.Option{
+	pool, _ := taskpool.NewPool(&taskpool.Option{
 		MaxWorkerNumb: 4,
 	})
 	var sum int32
@@ -73,4 +73,41 @@ func TestPool_ChangeMaxWorkersNumber(t *testing.T) {
 	fmt.Println(sum)
 	// Output:
 	// 499500
+}
+
+func TestPool_Goto(t *testing.T) {
+	pool, _ := taskpool.NewPool(&taskpool.Option{
+		MaxWorkerNumb: 4,
+	})
+
+	for i := 0; i < 4; i++ {
+		pool.Go(func(param ...interface{}) {
+			ii := param[0].(int) // 必须取参数，直接使用i则为携程外的数据，无法准确识别
+			switch ii {
+			case 0:
+				goto zero
+
+			case 1:
+				goto zero
+
+			case 2:
+				goto two
+
+			default:
+				goto End
+			}
+
+		zero:
+			fmt.Println("zero")
+			return
+		two:
+			fmt.Println("two")
+			return
+		End:
+			fmt.Println("End")
+			return
+		}, i)
+
+	}
+	time.Sleep(3*time.Second)
 }
