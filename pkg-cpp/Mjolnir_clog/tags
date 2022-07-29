@@ -1,0 +1,244 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ARCHITECTURE_ID	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#   define ARCHITECTURE_ID /;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define ARCHITECTURE_ID /;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define ARCHITECTURE_ID$/;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define ARCHITECTURE_ID /;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID$/;"	d	file:
+Append	Buffer.cpp	/^  void Buffer::Append(const char *log_line, uint32_t len) {$/;"	f	class:mjolnir::Buffer
+BUFF_WAIT_TIME	Mjolnir_clog.cpp	/^#define BUFF_WAIT_TIME /;"	d	file:
+Buffer	Buffer.cpp	/^  Buffer::Buffer(uint32_t capacity)$/;"	f	class:mjolnir::Buffer
+Buffer	Buffer.h	/^  class Buffer {$/;"	c	namespace:mjolnir
+CMAKE_BINARY_DIR	Makefile	/^CMAKE_BINARY_DIR = \/Users\/admin\/go\/src\/github.com\/Mjolnir\/pkg-cpp\/Mjolnir_clog$/;"	m
+CMAKE_COMMAND	Makefile	/^CMAKE_COMMAND = \/opt\/homebrew\/Cellar\/cmake\/3.22.1\/bin\/cmake$/;"	m
+CMAKE_SOURCE_DIR	Makefile	/^CMAKE_SOURCE_DIR = \/Users\/admin\/go\/src\/github.com\/Mjolnir\/pkg-cpp\/Mjolnir_clog$/;"	m
+COMPILER_ID	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_ID /;"	d	file:
+COMPILER_ID	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	file:
+COMPILER_VERSION	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION /;"	d	file:
+COMPILER_VERSION	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION /;"	d	file:
+COMPILER_VERSION_INTERNAL	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL_STR	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_INTERNAL_STR /;"	d	file:
+COMPILER_VERSION_INTERNAL_STR	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_INTERNAL_STR /;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^  # define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^  # define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^  # define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_TWEAK	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_TWEAK /;"	d	file:
+COMPILER_VERSION_TWEAK	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_TWEAK /;"	d	file:
+COMPILER_VERSION_TWEAK	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_TWEAK /;"	d	file:
+COMPILER_VERSION_TWEAK	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_TWEAK /;"	d	file:
+CXX_STD	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#      define CXX_STD /;"	d	file:
+CXX_STD	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#    define CXX_STD /;"	d	file:
+CXX_STD	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define CXX_STD /;"	d	file:
+C_VERSION	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define C_VERSION /;"	d	file:
+C_VERSION	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define C_VERSION$/;"	d	file:
+C_VERSION	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define C_VERSION /;"	d	file:
+Clear	Buffer.cpp	/^  void Buffer::Clear() {$/;"	f	class:mjolnir::Buffer
+DEBUG	Mjolnir_clog.h	/^    DEBUG,$/;"	e	enum:mjolnir::_MJOLNIR_LOG_ENUM
+DEBUG	Mjolnir_clog_header.h	/^  #define DEBUG(/;"	d
+DEC	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#define DEC(/;"	d	file:
+DEC	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define DEC(/;"	d	file:
+DEFAULT_LOG_DIR	Mjolnir_clog.cpp	/^#define DEFAULT_LOG_DIR /;"	d	file:
+EQUALS	Makefile	/^EQUALS = =$/;"	m
+ERROR	Mjolnir_clog.h	/^    ERROR,$/;"	e	enum:mjolnir::_MJOLNIR_LOG_ENUM
+ERROR	Mjolnir_clog_header.h	/^  #define ERROR(/;"	d
+FATAL	Mjolnir_clog.h	/^    FATAL = 1,$/;"	e	enum:mjolnir::_MJOLNIR_LOG_ENUM
+FATAL	Mjolnir_clog_header.h	/^  #define FATAL(/;"	d
+FREE	Buffer.h	/^      FREE,$/;"	e	enum:mjolnir::Buffer::_BUFFER_STATUS
+FULL	Buffer.h	/^      FULL$/;"	e	enum:mjolnir::Buffer::_BUFFER_STATUS
+FileGenerator	Mjolnir_clog.cpp	/^  void MjolnirCLog::FileGenerator(int year, int month, int day) {$/;"	f	class:mjolnir::MjolnirCLog
+FileProcessor	Mjolnir_clog.cpp	/^  bool MjolnirCLog::FileProcessor(int year, int month, int day) {$/;"	f	class:mjolnir::MjolnirCLog
+FileRenameAndGenerator	Mjolnir_clog.cpp	/^  void MjolnirCLog::FileRenameAndGenerator() {$/;"	f	class:mjolnir::MjolnirCLog
+GetBufferStatus	Buffer.h	/^    _BUFFER_STATUS GetBufferStatus() { return status_; }$/;"	f	class:mjolnir::Buffer
+GetCurrentTime	UTC_Timer.h	/^    uint64_t GetCurrentTime(int *p_msec = NULL) {$/;"	f	struct:mjolnir::_UTC_TIMER
+GetInstance	Mjolnir_clog.h	/^    static MjolnirCLog* GetInstance() {$/;"	f	class:mjolnir::MjolnirCLog
+GetLevel	Mjolnir_clog.h	/^    int GetLevel() const { return level_; }$/;"	f	class:mjolnir::MjolnirCLog
+GetLogoString	Mjolnir_clog.cpp	/^  std::string MjolnirCLog::GetLogoString() {$/;"	f	class:mjolnir::MjolnirCLog
+GetRemainSpace	Buffer.h	/^    uint32_t GetRemainSpace() const { return capacity_ - used_space_; }$/;"	f	class:mjolnir::Buffer
+HEX	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#define HEX(/;"	d	file:
+HEX	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define HEX(/;"	d	file:
+ID_VOID_MAIN	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define ID_VOID_MAIN$/;"	d	file:
+INFO	Mjolnir_clog.h	/^    INFO,$/;"	e	enum:mjolnir::_MJOLNIR_LOG_ENUM
+INFO	Mjolnir_clog_header.h	/^  #define INFO(/;"	d
+InitInstance	Mjolnir_clog.h	/^    static void InitInstance() {$/;"	f	class:mjolnir::MjolnirCLog
+IsEmpty	Buffer.h	/^    bool IsEmpty() const { return used_space_ == 0; }$/;"	f	class:mjolnir::Buffer
+LOG_DEBUG	Mjolnir_clog_header.h	/^  #define LOG_DEBUG(/;"	d
+LOG_ERROR	Mjolnir_clog_header.h	/^  #define LOG_ERROR(/;"	d
+LOG_FATAL	Mjolnir_clog_header.h	/^  #define LOG_FATAL(/;"	d
+LOG_INFO	Mjolnir_clog_header.h	/^  #define LOG_INFO(/;"	d
+LOG_INIT	Mjolnir_clog_header.h	/^  #define LOG_INIT(/;"	d
+LOG_LEN_LIMIT	Mjolnir_clog.cpp	/^#define LOG_LEN_LIMIT /;"	d	file:
+LOG_NORMAL	Mjolnir_clog_header.h	/^  #define LOG_NORMAL(/;"	d
+LOG_TRACE	Mjolnir_clog_header.h	/^  #define LOG_TRACE(/;"	d
+LOG_USE_LIMIT	Mjolnir_clog.cpp	/^#define LOG_USE_LIMIT /;"	d	file:
+LOG_WARN	Mjolnir_clog_header.h	/^  #define LOG_WARN(/;"	d
+LogWriting	Mjolnir_clog_header.h	/^  void* LogWriting(void* args) {$/;"	f	namespace:mjolnir
+MEM_USE_LIMIT	Mjolnir_clog.cpp	/^#define MEM_USE_LIMIT /;"	d	file:
+MJOLNIR_CLOG_BUFFER_H	Buffer.h	/^#define MJOLNIR_CLOG_BUFFER_H$/;"	d
+MJOLNIR_CLOG_MJOLNIR_CLOG_HEADER_H	Mjolnir_clog_header.h	/^#define MJOLNIR_CLOG_MJOLNIR_CLOG_HEADER_H$/;"	d
+MJOLNIR_CLOG_UTC_TIME_H	UTC_Timer.h	/^#define MJOLNIR_CLOG_UTC_TIME_H$/;"	d
+MjolnirCLog	Mjolnir_clog.cpp	/^  MjolnirCLog::MjolnirCLog()$/;"	f	class:mjolnir::MjolnirCLog
+MjolnirCLog	Mjolnir_clog.h	/^  class MjolnirCLog {$/;"	c	namespace:mjolnir
+NORMAL	Mjolnir_clog_header.h	/^  #define NORMAL(/;"	d
+PLATFORM_ID	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define PLATFORM_ID /;"	d	file:
+PLATFORM_ID	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define PLATFORM_ID$/;"	d	file:
+PLATFORM_ID	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define PLATFORM_ID /;"	d	file:
+PLATFORM_ID	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define PLATFORM_ID$/;"	d	file:
+PLATFORM_ID	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define PLATFORM_ID /;"	d	file:
+PLATFORM_ID	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define PLATFORM_ID$/;"	d	file:
+PLATFORM_ID	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	file:
+PLATFORM_ID	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID$/;"	d	file:
+RELOG_THRESOLD	Mjolnir_clog.cpp	/^#define RELOG_THRESOLD /;"	d	file:
+RM	Makefile	/^RM = \/opt\/homebrew\/Cellar\/cmake\/3.22.1\/bin\/cmake -E rm -f$/;"	m
+ResetUTCFmt	UTC_Timer.h	/^    void ResetUTCFmt() {$/;"	f	struct:mjolnir::_UTC_TIMER
+ResetUTCFmtSec	UTC_Timer.h	/^    void ResetUTCFmtSec() {$/;"	f	struct:mjolnir::_UTC_TIMER
+SHELL	Makefile	/^SHELL = \/bin\/sh$/;"	m
+SIMULATE_ID	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_ID /;"	d	file:
+SIMULATE_ID	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define SIMULATE_ID /;"	d	file:
+SIMULATE_ID	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_ID /;"	d	file:
+SIMULATE_ID	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_ID /;"	d	file:
+SIMULATE_VERSION_MAJOR	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_VERSION_MAJOR /;"	d	file:
+SIMULATE_VERSION_MAJOR	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define SIMULATE_VERSION_MAJOR /;"	d	file:
+SIMULATE_VERSION_MAJOR	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_MAJOR /;"	d	file:
+SIMULATE_VERSION_MAJOR	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_VERSION_MAJOR /;"	d	file:
+SIMULATE_VERSION_MINOR	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_VERSION_MINOR /;"	d	file:
+SIMULATE_VERSION_MINOR	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define SIMULATE_VERSION_MINOR /;"	d	file:
+SIMULATE_VERSION_MINOR	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_MINOR /;"	d	file:
+SIMULATE_VERSION_MINOR	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_VERSION_MINOR /;"	d	file:
+SIMULATE_VERSION_PATCH	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_VERSION_PATCH /;"	d	file:
+SIMULATE_VERSION_PATCH	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define SIMULATE_VERSION_PATCH /;"	d	file:
+SIMULATE_VERSION_PATCH	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_PATCH /;"	d	file:
+SIMULATE_VERSION_PATCH	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_VERSION_PATCH /;"	d	file:
+STRINGIFY	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#define STRINGIFY(/;"	d	file:
+STRINGIFY	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define STRINGIFY(/;"	d	file:
+STRINGIFY_HELPER	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#define STRINGIFY_HELPER(/;"	d	file:
+STRINGIFY_HELPER	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define STRINGIFY_HELPER(/;"	d	file:
+SetBufferStatus	Buffer.h	/^    void SetBufferStatus(_BUFFER_STATUS status) { status_ = status; }$/;"	f	class:mjolnir::Buffer
+SetInitParams	Mjolnir_clog.cpp	/^  void MjolnirCLog::SetInitParams(std::string path, std::string name, _MJOLNIR_LOG_ENUM level, uint32_t buffer_capacity) {$/;"	f	class:mjolnir::MjolnirCLog
+StartLogWriting	Mjolnir_clog.h	/^    void StartLogWriting() {$/;"	f	class:mjolnir::MjolnirCLog
+TRACE	Mjolnir_clog.h	/^    TRACE,$/;"	e	enum:mjolnir::_MJOLNIR_LOG_ENUM
+TRACE	Mjolnir_clog_header.h	/^  #define TRACE(/;"	d
+TryAppend	Mjolnir_clog.cpp	/^  void MjolnirCLog::TryAppend(const char* lvl, const char* format, ...) {$/;"	f	class:mjolnir::MjolnirCLog
+WARN	Mjolnir_clog.h	/^    WARN,$/;"	e	enum:mjolnir::_MJOLNIR_LOG_ENUM
+WARN	Mjolnir_clog_header.h	/^  #define WARN(/;"	d
+Write2Disk	Buffer.cpp	/^  void Buffer::Write2Disk(FILE *fp) {$/;"	f	class:mjolnir::Buffer
+Write2Disk	Mjolnir_clog.cpp	/^  void MjolnirCLog::Write2Disk() {$/;"	f	class:mjolnir::MjolnirCLog
+WritingBufferFreeWait	Mjolnir_clog.cpp	/^  void MjolnirCLog::WritingBufferFreeWait() {$/;"	f	class:mjolnir::MjolnirCLog
+_BUFFER_STATUS	Buffer.h	/^    enum _BUFFER_STATUS {$/;"	g	class:mjolnir::Buffer
+_MJOLNIR_LOG_ENUM	Mjolnir_clog.h	/^  enum _MJOLNIR_LOG_ENUM {$/;"	g	namespace:mjolnir
+_UTC_TIMER	UTC_Timer.h	/^    _UTC_TIMER() {$/;"	f	struct:mjolnir::_UTC_TIMER
+_UTC_TIMER	UTC_Timer.h	/^  struct _UTC_TIMER {$/;"	s	namespace:mjolnir
+__MJOLNIR_LOG_H__	Mjolnir_clog.h	/^#define __MJOLNIR_LOG_H__$/;"	d
+__has_include	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^#  define __has_include(/;"	d	file:
+__has_include	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define __has_include(/;"	d	file:
+buffer_capacity_	Mjolnir_clog.h	/^    uint32_t buffer_capacity_; \/\/ 单个buffer容量$/;"	m	class:mjolnir::MjolnirCLog
+capacity_	Buffer.h	/^    uint32_t capacity_;$/;"	m	class:mjolnir::Buffer
+cond_	Mjolnir_clog.cpp	/^  pthread_cond_t MjolnirCLog::cond_ = PTHREAD_COND_INITIALIZER;$/;"	m	class:mjolnir::MjolnirCLog	file:
+cond_	Mjolnir_clog.h	/^    static pthread_cond_t cond_;$/;"	m	class:mjolnir::MjolnirCLog
+const	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define const$/;"	d	file:
+current_node_	Mjolnir_clog.h	/^    Buffer* current_node_;$/;"	m	class:mjolnir::MjolnirCLog
+data_	Buffer.h	/^    char *data_;$/;"	m	class:mjolnir::Buffer
+day	UTC_Timer.h	/^    int year, month, day, hour, min, sec;$/;"	m	struct:mjolnir::_UTC_TIMER
+day_	Mjolnir_clog.h	/^    int day_;$/;"	m	class:mjolnir::MjolnirCLog
+file_fp_	Mjolnir_clog.h	/^    FILE* file_fp_;$/;"	m	class:mjolnir::MjolnirCLog
+get_current_millis	test.cpp	/^int64_t get_current_millis(void) {$/;"	f
+gettid	Mjolnir_clog_header.h	/^  pid_t gettid()$/;"	f	namespace:mjolnir
+hour	UTC_Timer.h	/^    int year, month, day, hour, min, sec;$/;"	m	struct:mjolnir::_UTC_TIMER
+info_arch	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
+info_arch	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
+info_compiler	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
+info_compiler	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
+info_cray	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";$/;"	v
+info_cray	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";$/;"	v
+info_language_extensions_default	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^const char* info_language_extensions_default = "INFO" ":" "extensions_default["$/;"	v
+info_language_extensions_default	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^const char* info_language_extensions_default = "INFO" ":" "extensions_default["$/;"	v
+info_language_standard_default	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^const char* info_language_standard_default =$/;"	v
+info_language_standard_default	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^const char* info_language_standard_default = "INFO" ":" "standard_default["$/;"	v
+info_platform	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
+info_platform	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
+info_simulate	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";$/;"	v
+info_simulate	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";$/;"	v
+info_simulate_version	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const info_simulate_version[] = {$/;"	v
+info_simulate_version	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_simulate_version[] = {$/;"	v
+info_version	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const info_version[] = {$/;"	v
+info_version	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const* info_version = "INFO" ":" "compiler_version[" COMPILER_VERSION "]";$/;"	v
+info_version	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version[] = {$/;"	v
+info_version	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_version = "INFO" ":" "compiler_version[" COMPILER_VERSION "]";$/;"	v
+info_version_internal	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const info_version_internal[] = {$/;"	v
+info_version_internal	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const* info_version_internal = "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INTERNAL_STR "]";$/;"	v
+info_version_internal	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version_internal[] = {$/;"	v
+info_version_internal	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_version_internal = "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INTERNAL_STR "]";$/;"	v
+last_lts_	Mjolnir_clog.h	/^    uint64_t last_lts_;   \/\/日志无法写入的最后时间，如果值不为0则证明日志无法写入，并且值为最后无法写入的时间$/;"	m	class:mjolnir::MjolnirCLog
+last_node_	Mjolnir_clog.h	/^    Buffer* last_node_;$/;"	m	class:mjolnir::MjolnirCLog
+level_	Mjolnir_clog.h	/^    int level_;$/;"	m	class:mjolnir::MjolnirCLog
+log_count_	Mjolnir_clog.h	/^    int log_count_; \/\/ 用于记录超限制大小的日志量计数$/;"	m	class:mjolnir::MjolnirCLog
+log_path_	Mjolnir_clog.h	/^    std::string log_path_;$/;"	m	class:mjolnir::MjolnirCLog
+main	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^int main(argc, argv) int argc; char *argv[];$/;"	f
+main	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f
+main	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f
+main	test.cpp	/^int main(int argc, char** argv)$/;"	f
+min	UTC_Timer.h	/^    int year, month, day, hour, min, sec;$/;"	m	struct:mjolnir::_UTC_TIMER
+mjolnir	Buffer.cpp	/^namespace mjolnir {$/;"	n	file:
+mjolnir	Buffer.h	/^namespace mjolnir {$/;"	n
+mjolnir	Mjolnir_clog.cpp	/^namespace mjolnir {$/;"	n	file:
+mjolnir	Mjolnir_clog.h	/^namespace mjolnir {$/;"	n
+mjolnir	Mjolnir_clog_header.h	/^namespace mjolnir {$/;"	n
+mjolnir	UTC_Timer.h	/^namespace mjolnir {$/;"	n
+month	UTC_Timer.h	/^    int year, month, day, hour, min, sec;$/;"	m	struct:mjolnir::_UTC_TIMER
+month_	Mjolnir_clog.h	/^    int month_;$/;"	m	class:mjolnir::MjolnirCLog
+mutex_	Mjolnir_clog.cpp	/^  pthread_mutex_t MjolnirCLog::mutex_ = PTHREAD_MUTEX_INITIALIZER;$/;"	m	class:mjolnir::MjolnirCLog	file:
+mutex_	Mjolnir_clog.h	/^    static pthread_mutex_t mutex_;$/;"	m	class:mjolnir::MjolnirCLog
+name_	Mjolnir_clog.h	/^    std::string name_;$/;"	m	class:mjolnir::MjolnirCLog
+next_	Buffer.h	/^    Buffer* next_;$/;"	m	class:mjolnir::Buffer
+node_count_	Mjolnir_clog.h	/^    int node_count_; \/\/ buffer 节点计数$/;"	m	class:mjolnir::MjolnirCLog
+once_	Mjolnir_clog.cpp	/^  pthread_once_t MjolnirCLog::once_ = PTHREAD_ONCE_INIT;$/;"	m	class:mjolnir::MjolnirCLog	file:
+once_	Mjolnir_clog.h	/^    static pthread_once_t once_;$/;"	m	class:mjolnir::MjolnirCLog
+pid_	Mjolnir_clog.h	/^    int pid_;$/;"	m	class:mjolnir::MjolnirCLog
+prev_	Buffer.h	/^    Buffer* prev_;$/;"	m	class:mjolnir::Buffer
+qnxnto	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v
+qnxnto	CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v
+sec	UTC_Timer.h	/^    int year, month, day, hour, min, sec;$/;"	m	struct:mjolnir::_UTC_TIMER
+single_instance_	Mjolnir_clog.cpp	/^  MjolnirCLog* MjolnirCLog::single_instance_ = nullptr;$/;"	m	class:mjolnir::MjolnirCLog	file:
+single_instance_	Mjolnir_clog.h	/^    static MjolnirCLog * single_instance_;$/;"	m	class:mjolnir::MjolnirCLog
+status_	Buffer.h	/^    _BUFFER_STATUS status_;$/;"	m	class:mjolnir::Buffer
+sys_acc_min_	UTC_Timer.h	/^    uint64_t sys_acc_min_;$/;"	m	struct:mjolnir::_UTC_TIMER
+sys_acc_sec_	UTC_Timer.h	/^    uint64_t sys_acc_sec_;$/;"	m	struct:mjolnir::_UTC_TIMER
+used_space_	Buffer.h	/^    uint32_t used_space_;$/;"	m	class:mjolnir::Buffer
+utc_fmt	UTC_Timer.h	/^    char utc_fmt[20];$/;"	m	struct:mjolnir::_UTC_TIMER
+utc_timer_	Mjolnir_clog.h	/^    _UTC_TIMER utc_timer_;$/;"	m	class:mjolnir::MjolnirCLog
+volatile	CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c	/^# define volatile$/;"	d	file:
+writing_node_	Mjolnir_clog.h	/^    Buffer* writing_node_;$/;"	m	class:mjolnir::MjolnirCLog
+year	UTC_Timer.h	/^    int year, month, day, hour, min, sec;$/;"	m	struct:mjolnir::_UTC_TIMER
+year_	Mjolnir_clog.h	/^    int year_;$/;"	m	class:mjolnir::MjolnirCLog
+~Buffer	Buffer.cpp	/^  Buffer::~Buffer() {$/;"	f	class:mjolnir::Buffer
+~MjolnirCLog	Mjolnir_clog.cpp	/^  MjolnirCLog::~MjolnirCLog() {$/;"	f	class:mjolnir::MjolnirCLog

@@ -1,0 +1,3 @@
+/Users/admin/go/src/github.com/Mjolnir/pkg-cpp/Mjolnir_clog/CMakeFiles/Mjolnir_clog.dir
+/Users/admin/go/src/github.com/Mjolnir/pkg-cpp/Mjolnir_clog/CMakeFiles/edit_cache.dir
+/Users/admin/go/src/github.com/Mjolnir/pkg-cpp/Mjolnir_clog/CMakeFiles/rebuild_cache.dir
