@@ -24,7 +24,7 @@
 
 #include <pthread.h>
 
-namespace Mjolnir {
+namespace mjolnir {
   class Buffer {
   public:
     enum _BUFFER_STATUS {
@@ -59,6 +59,6 @@ namespace Mjolnir {
     uint32_t used_space_;
     char *data_;
   };
-} // Mjolnir
+} // mjolnir
 
 #endif //MJOLNIR_CLOG_BUFFER_H

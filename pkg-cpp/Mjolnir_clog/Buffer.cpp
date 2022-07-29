@@ -11,7 +11,7 @@
 
 #include "Buffer.h"
 
-namespace Mjolnir {
+namespace mjolnir {
   /* ---------------- Buffer ---------------- */
   Buffer::Buffer(uint32_t capacity)
   : status_(FREE)
@@ -52,4 +52,4 @@ namespace Mjolnir {
       std::cout<< stderr << "write log to disk error, wt_len %u" << wt_len << std::endl;
     }
   }
-} // Mjolnir
+} // mjolnir

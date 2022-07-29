@@ -23,7 +23,7 @@ int64_t get_current_millis(void) {
 
 int main(int argc, char** argv)
 {
-  LOG_INIT("", "test", Mjolnir::ERROR, 0);
+  LOG_INIT("", "test", mjolnir::ERROR, 0);
   uint64_t start_ts = get_current_millis();
   for (int i = 0;i < 8000; ++i)
   {

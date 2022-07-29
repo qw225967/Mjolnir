@@ -16,7 +16,7 @@
 #include "Buffer.h"
 #include "UTC_Timer.h"
 
-namespace Mjolnir {
+namespace mjolnir {
   enum _MJOLNIR_LOG_ENUM {
     FATAL = 1,
     ERROR,
@@ -95,7 +95,7 @@ namespace Mjolnir {
     Buffer* writing_node_;
   };
 
-} // Mjolnir
+} // mjolnir
 
 
 #endif // __MJOLNIR_LOG_H__

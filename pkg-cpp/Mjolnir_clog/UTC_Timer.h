@@ -14,7 +14,7 @@
 #include <time.h>
 #include <sys/time.h>
 
-namespace Mjolnir {
+namespace mjolnir {
   struct _UTC_TIMER {
     _UTC_TIMER() {
       struct timeval tv;
@@ -80,6 +80,6 @@ namespace Mjolnir {
     uint64_t sys_acc_min_;
     uint64_t sys_acc_sec_;
   };
-} // Mjolnir
+} // mjolnir
 
 #endif //MJOLNIR_CLOG_UTC_TIME_H

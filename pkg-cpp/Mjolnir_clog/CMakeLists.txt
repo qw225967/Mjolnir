@@ -5,11 +5,11 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(.)
 
-add_executable(Mjolnir_clog
+add_executable( Mjolnir_clog
+        test.cpp
         Buffer.cpp
         Buffer.h
         Mjolnir_clog.cpp
         Mjolnir_clog.h
         Mjolnir_clog_header.h
-        test.cpp
         UTC_Timer.h)
