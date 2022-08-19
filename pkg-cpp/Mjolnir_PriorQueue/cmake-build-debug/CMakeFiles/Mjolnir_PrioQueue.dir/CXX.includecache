@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/admin/go/src/github.com/Mjolnir/pkg-cpp/Mjolnir_PriorQueue/Mjolnir_PriorQueue.h
+string
+-
+vector
+-
+
+/Users/admin/go/src/github.com/Mjolnir/pkg-cpp/Mjolnir_PriorQueue/main.cpp
+Mjolnir_PriorQueue.h
+/Users/admin/go/src/github.com/Mjolnir/pkg-cpp/Mjolnir_PriorQueue/Mjolnir_PriorQueue.h
+iostream
+-
+
