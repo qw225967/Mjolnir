@@ -12,7 +12,7 @@
 #include <iostream>
 
 namespace mjolnir {
-  constexpr size_t MaxMjolnirPriorityQueueSize = 19;
+  constexpr size_t MaxMjolnirPriorityQueueSize = 3;
 
   MjolnirPriorityQueue::MjolnirPriorityQueue() {}
   MjolnirPriorityQueue::~MjolnirPriorityQueue() {}
@@ -90,8 +90,8 @@ namespace mjolnir {
     element_queue_[i]->index = i;
 
     // 保证儿子有序
-    int a = p*2+1, b = p*2+2;
-    if (b < element_queue_.size()-1 && *element_queue_[b] < *element_queue_[a]) {
+    int a = i*2+1, b = i*2+2;
+    if (b < element_queue_.size() && *element_queue_[b] < *element_queue_[a]) {
       std::swap(element_queue_[b], element_queue_[a]);
       element_queue_[b]->index = b;
       element_queue_[a]->index = a;
@@ -124,7 +124,7 @@ namespace mjolnir {
     std::swap(element_queue_[0], element_queue_[preEnd]);
     element_queue_.erase(element_queue_.end() - 1);
 
-    int i = 0, end = element_queue_.size() - 1;
+    int i = 0, end = element_queue_.size();
     //从根向下交换
     while (i*2+1 < end){
       int a = i*2+1, b = i*2+2; //两个儿子的位置
@@ -142,6 +142,46 @@ namespace mjolnir {
     }
     element_queue_[i] = e; //最终在找到的位置 i 填入 x；
     element_queue_[i]->index = i;
+
+    i = element_queue_.size() - 1;
+    int p;
+    while (end > 0){
+      // 父亲节点的编号
+      p = (i - 1)/2;
+
+      if ((*element_queue_[p]) < *e) break;
+      //把父亲的节点放下来
+      std::swap((element_queue_[p]), (element_queue_[i]));
+      element_queue_[i]->index = i;
+      element_queue_[p]->index = p;
+
+      //当前节点更新
+      i = p;
+    }
+
+
+//    // 保证插入位置的儿子有序
+//    int a = i*2+1, b = i*2+2;
+//    if (b < element_queue_.size() && *element_queue_[b] < *element_queue_[a]) {
+//      std::swap(element_queue_[b], element_queue_[a]);
+//      element_queue_[b]->index = b;
+//      element_queue_[a]->index = a;
+//    }
+//
+//    // 保证根的儿子有序
+//    a = 1, b = 2;
+//    if (b < element_queue_.size() && *element_queue_[b] < *element_queue_[a]) {
+//      std::swap(element_queue_[b], element_queue_[a]);
+//      element_queue_[b]->index = b;
+//      element_queue_[a]->index = a;
+//    }
+
+    // 剩余两个元素时，保证元素有序
+    if (element_queue_.size() == 2 && *element_queue_[1] < *element_queue_[0]) {
+      std::swap(element_queue_[1], element_queue_[0]);
+      element_queue_[1]->index = 1;
+      element_queue_[0]->index = 0;
+    }
 
     res = ret;
 

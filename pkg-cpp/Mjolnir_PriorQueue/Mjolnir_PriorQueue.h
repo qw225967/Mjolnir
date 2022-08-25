@@ -19,10 +19,11 @@ namespace mjolnir {
   public:
     // 父元素结构体
     struct Element {
-      Element(bool init = false, int prior = 0, uint64_t now = 0, std::string str = "")
+      Element(bool init = false, int prior = 0, uint64_t now = 0, uint16_t seq = 0, std::string str = "")
       :     isInit(init),
             priority(prior),
             time_stamp(now),
+            sequence(seq),
             show_string(std::move(str)) {}
       bool operator<(const Element& e) const {
         if (priority < e.priority)
@@ -30,6 +31,14 @@ namespace mjolnir {
         else if (priority == e.priority){
           if (time_stamp < e.time_stamp) {
             return true;
+          } else if (time_stamp == e.time_stamp) {
+            if (sequence < e.sequence) {
+              if (e.sequence - sequence > 65536/2)
+                return false;
+              return true;
+            } else if (sequence - e.sequence > 65536/2)
+                return true;
+            return false;
           }
           return false;
         } else {
@@ -37,15 +46,16 @@ namespace mjolnir {
         }
       }
       bool operator<=(const Element& e) const {
-        return priority <= e.priority /*|| time_stamp <= e.time_stamp*/;
+        return priority <= e.priority || time_stamp <= e.time_stamp;
       }
       bool operator>=(const Element& e) const {
-        return priority >= e.priority /*&& time_stamp >= e.time_stamp*/;
+        return priority >= e.priority && time_stamp >= e.time_stamp;
       }
 
       bool isInit;
       int priority;
       uint64_t time_stamp;
+      uint16_t sequence;
       std::string show_string;
       int index { 0u };
 
