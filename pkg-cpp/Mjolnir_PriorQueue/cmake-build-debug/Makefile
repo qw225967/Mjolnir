@@ -129,30 +129,6 @@ Mjolnir_PrioQueue/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mjolnir_PrioQueue.dir/build.make CMakeFiles/Mjolnir_PrioQueue.dir/build
 .PHONY : Mjolnir_PrioQueue/fast
 
-Mjolnir_PriorQueue.o: Mjolnir_PriorQueue.cpp.o
-.PHONY : Mjolnir_PriorQueue.o
-
-# target to build an object file
-Mjolnir_PriorQueue.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mjolnir_PrioQueue.dir/build.make CMakeFiles/Mjolnir_PrioQueue.dir/Mjolnir_PriorQueue.cpp.o
-.PHONY : Mjolnir_PriorQueue.cpp.o
-
-Mjolnir_PriorQueue.i: Mjolnir_PriorQueue.cpp.i
-.PHONY : Mjolnir_PriorQueue.i
-
-# target to preprocess a source file
-Mjolnir_PriorQueue.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mjolnir_PrioQueue.dir/build.make CMakeFiles/Mjolnir_PrioQueue.dir/Mjolnir_PriorQueue.cpp.i
-.PHONY : Mjolnir_PriorQueue.cpp.i
-
-Mjolnir_PriorQueue.s: Mjolnir_PriorQueue.cpp.s
-.PHONY : Mjolnir_PriorQueue.s
-
-# target to generate assembly for a file
-Mjolnir_PriorQueue.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mjolnir_PrioQueue.dir/build.make CMakeFiles/Mjolnir_PrioQueue.dir/Mjolnir_PriorQueue.cpp.s
-.PHONY : Mjolnir_PriorQueue.cpp.s
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -186,9 +162,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Mjolnir_PrioQueue"
-	@echo "... Mjolnir_PriorQueue.o"
-	@echo "... Mjolnir_PriorQueue.i"
-	@echo "... Mjolnir_PriorQueue.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

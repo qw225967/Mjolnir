@@ -81,12 +81,12 @@ clean: CMakeFiles/Mjolnir_PrioQueue.dir/clean
 CMakeFiles/Mjolnir_PrioQueue.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mjolnir_PrioQueue.dir/build.make CMakeFiles/Mjolnir_PrioQueue.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mjolnir_PrioQueue.dir/build.make CMakeFiles/Mjolnir_PrioQueue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/admin/go/src/github.com/Mjolnir/pkg-cpp/Mjolnir_PriorQueue/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target Mjolnir_PrioQueue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/admin/go/src/github.com/Mjolnir/pkg-cpp/Mjolnir_PriorQueue/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Mjolnir_PrioQueue"
 .PHONY : CMakeFiles/Mjolnir_PrioQueue.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Mjolnir_PrioQueue.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/admin/go/src/github.com/Mjolnir/pkg-cpp/Mjolnir_PriorQueue/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/admin/go/src/github.com/Mjolnir/pkg-cpp/Mjolnir_PriorQueue/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Mjolnir_PrioQueue.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/admin/go/src/github.com/Mjolnir/pkg-cpp/Mjolnir_PriorQueue/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Mjolnir_PrioQueue.dir/rule

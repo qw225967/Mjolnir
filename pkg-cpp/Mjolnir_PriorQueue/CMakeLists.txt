@@ -3,4 +3,4 @@ project(Mjolnir_PrioQueue)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Mjolnir_PrioQueue main.cpp Mjolnir_PriorQueue.cpp)
+add_executable(Mjolnir_PrioQueue main.cpp)

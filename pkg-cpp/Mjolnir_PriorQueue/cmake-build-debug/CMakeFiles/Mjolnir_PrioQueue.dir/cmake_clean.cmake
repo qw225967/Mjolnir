@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Mjolnir_PrioQueue.dir/Mjolnir_PriorQueue.cpp.o"
   "CMakeFiles/Mjolnir_PrioQueue.dir/main.cpp.o"
   "Mjolnir_PrioQueue"
   "Mjolnir_PrioQueue.pdb"

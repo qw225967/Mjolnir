@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 /Users/admin/go/src/github.com/Mjolnir/pkg-cpp/Mjolnir_PriorQueue/Mjolnir_PriorQueue.h
+queue
+-
 string
 -
 vector

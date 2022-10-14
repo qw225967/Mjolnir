@@ -78,12 +78,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/admin/go/src/github.com/Mjolnir/pkg-cpp/Mjolnir_PriorQueue/Mjolnir_PriorQueue.cpp">
-			<Option target="Mjolnir_PrioQueue"/>
-		</Unit>
-		<Unit filename="/Users/admin/go/src/github.com/Mjolnir/pkg-cpp/Mjolnir_PriorQueue/Mjolnir_PriorQueue.h">
-			<Option target="Mjolnir_PrioQueue"/>
-		</Unit>
 		<Unit filename="/Users/admin/go/src/github.com/Mjolnir/pkg-cpp/Mjolnir_PriorQueue/main.cpp">
 			<Option target="Mjolnir_PrioQueue"/>
 		</Unit>
