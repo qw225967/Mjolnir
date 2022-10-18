@@ -9,7 +9,7 @@ namespace mjolnir {
           time_stamp(now),
           sequence(seq),
           show_string(std::move(str)) {}
-
+    // 必须重载 < 号才能正常判断
     bool operator<(const TestElement &e) const noexcept {
       if (priority < e.priority)
         return true;
